@@ -42,6 +42,7 @@ LOCAL_APPS = [
     'apps.matches',
     'apps.predictions',
     'apps.rankings',
+    'apps.spaces',
     'apps.integrations',
 ]
 

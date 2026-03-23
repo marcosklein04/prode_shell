@@ -17,6 +17,7 @@ urlpatterns = [
     path('api/matches/', include('apps.matches.urls')),
     path('api/predictions/', include('apps.predictions.urls')),
     path('api/rankings/', include('apps.rankings.urls')),
+    path('api/spaces/', include('apps.spaces.urls')),
     path('api/admin/', include('apps.integrations.urls')),
 
     # Documentación API (Swagger / ReDoc)
